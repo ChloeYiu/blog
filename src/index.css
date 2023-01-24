@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "SF-Pro-Display-Regular";
+  src: url("./assets/fonts/SF-Pro-Display-Regular.ttf");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display-Semibold";
+  src: url("./assets/fonts/SF-Pro-Display-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display-Bold";
+  src: url("./assets/fonts/SF-Pro-Display-Bold.ttf");
+}
+
+* {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
+
+:root {
+  --deepblue: #bedcff;
+  --blue: #d8eaff;
+  --lightblue: #f2f8ff;
+  --backgroundblue: #f1f7ff;
+  --deepgray: #b0b0b0;
+  --gray: #ededed;
+  --shadowgray: rgb(209, 209, 209);
+
+  --wideBoxWidth: min(100vw, 1300px);
+  --wideBoxHeight: min(50vw, 650px);
+  --wideBarWidth: min(100vw, 1000px);
+  --narrowBarWidth: 100vw;
+  --listWideWidth: min(100vw, 1000px);
+  --listNarrowWidth: 100vw;
+  --navbarHeight: 55px;
+  --narrowBoxWidth: 100vw;
+  --narrowBoxHeight: 130vw;
+  
+  --postWidth: min(95vw, 720px);
+  --padding: 40px;
+  --imageWidth: min(calc(var(--postWidth) - var(--padding) * 2), 500px);
+
+  --minHeightWide: calc(100vh - calc(var(--wideBarWidth) / 18));
+  --minHeightNarrow: calc(100vh - calc(var(--wideBarWidth) / 9));
+}
+
+.mainWide {
+  min-height: var(--minHeightWide);
+}
+
+.mainNarrow {
+  min-height: var(--minHeightNarrow);
+}
+
+@import "./css/navbar/dropdownmenu.css";
+@import "./css/navbar/navbar.css";
+@import "./css/bottombar/bottombar.css";
+@import "./css/home/topBox.css";
+@import "./css/home/thingsDid.css";
+@import "./css/list/list.css";
+@import "./css/list/listitem.css";
+@import "./css/posttemp/posttemp.css";
+@import "./css/posttemp/element.css";
+@import "./css/loading.css";

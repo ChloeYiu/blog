@@ -1,0 +1,147 @@
+.p,
+.href {
+  font-family: "SF-Pro-Display-Regular";
+  color: black;
+  font-size: 17px;
+
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+
+  padding-bottom: 28px;
+}
+
+a.hrefembed {
+  font-family: "SF-Pro-Display-Regular";
+  color: black;
+  font-size: 17px;
+
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+.href a:link,
+.href a:visited {
+  color: var(--deepgray);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+a.hrefembed:link,
+a.hrefembed:visited {
+  color: var(--deepgray);
+  text-decoration: none;
+}
+
+.href a:hover,
+.href a:active,
+a.hrefembed:hover,
+a.hrefembed:active {
+  color: var(--deepgray);
+  text-decoration: underline;
+}
+
+ol.ol {
+  font-family: "SF-Pro-Display-Regular";
+  color: black;
+  font-size: 17px;
+
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+
+  padding-bottom: 28px;
+
+  list-style-type: decimal;
+  padding-left: 30px;
+}
+
+ul.ul {
+  font-family: "SF-Pro-Display-Regular";
+  color: black;
+  font-size: 17px;
+
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+
+  padding-bottom: 28px;
+
+  padding-left: 30px;
+}
+
+.h1 {
+  font-family: "SF-Pro-Display-Bold";
+  color: black;
+  font-size: 28px;
+
+  padding-bottom: 28px;
+}
+
+.h2 {
+  font-family: "SF-Pro-Display-SemiBold";
+  color: black;
+  font-size: 21px;
+
+  padding-bottom: 28px;
+}
+
+.imgElementFlex,
+.youtubeElementFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  padding-bottom: 36px;
+}
+
+.imgEmbedFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgEmbedElement {
+  width: 100%;
+}
+
+.youtubeElement {
+  border: 0px;
+}
+
+.tableFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  padding-bottom: 36px;
+}
+
+.table {
+  width: var(--imageWidth);
+  table-layout: "fixed";
+
+  font-family: "SF-Pro-Display-Regular";
+  color: black;
+  font-size: 17px;
+  letter-spacing: 0.01em;
+}
+
+.tableBorder {
+  width: var(--imageWidth);
+  table-layout: "fixed";
+
+  font-family: "SF-Pro-Display-Regular";
+  color: black;
+  font-size: 17px;
+  letter-spacing: 0.01em;
+
+  border: 0.25px solid black;
+  border-spacing: 0px;
+}
+
+.table th {
+  font-weight: normal;
+}
+
+.tableBorder th {
+  font-weight: normal;
+  border: 0.25px solid black;
+}
